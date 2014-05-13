@@ -1,5 +1,6 @@
 gem "blacklight", ">= 5.3.0"
 
+run "bundle config build.nokogiri --use-system-libraries"
 run "bundle install"
 
 # run the blacklight install generator
