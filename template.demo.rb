@@ -1,6 +1,6 @@
 gem "blacklight", ">= 5.3.0"
 
-run "bundle config build.nokogiri --use-system-libraries  --with-iconv-dir="/usr/bin" --with-xml2-config="/usr/bin/xml2-config" --with-xslt-config="/usr/bin/xslt-config"
+run "bundle config build.nokogiri --use-system-libraries  --with-iconv-dir='/usr/bin' --with-xml2-config='/usr/bin/xml2-config' --with-xslt-config='/usr/bin/xslt-config'
 run "bundle install"
 
 # run the blacklight install generator
